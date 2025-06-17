@@ -1,0 +1,7 @@
+SELECT * FROM base.producto;
+use base;
+insert into producto (nombre, precio, stock, descripcion, categoria) values ('Tropical', '5990', 300, 'Refrescante', 'Hawái');
+insert into producto (nombre, precio, stock, descripcion, categoria) values ('Leon', '13990', 200, 'Macho Alfa', 'Sabana');
+insert into producto (nombre, precio, stock, descripcion, categoria) values ('Paco rabanne', '22990', 950, 'Dulce', 'Hombre');
+insert into producto (nombre, precio, stock, descripcion, categoria) values ('Dark Desigual', '2990', 3000, 'Sitrico', 'Piña');
+select * from producto
